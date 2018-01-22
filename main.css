@@ -8,7 +8,7 @@ h1 {
 	font-family: Montserrat, Avenir, Helvetica, sans;
 	font-size: 100px;
 	font-weight: 800;
-	text-shadow: 0px 0px 7px white;
+	text-shadow: 0px 0px 10px white;
 }
 p {
 	margin: 0 0 1rem 0;
@@ -30,7 +30,8 @@ h1.title_1 {
 	letter-spacing: 1em;
 }
 h1.title_2 {
-	padding: 0 0 0 20%;
+	padding: 10px 0 0 20%;
+	letter-spacing: 0.5em;
 	-webkit-animation: flicker 5s linear infinite;
 			animation: flicker 5s linear infinite;
 }
@@ -61,29 +62,29 @@ h1.title_4 {
 }
 /*ANIMATION*/
 @-webkit-keyframes flicker {
-	0%, 14.999%, 16%, 62.999%, 64%, 64.999%, 70%, 100% {
+	0%, 15.999%, 17%, 62.999%, 64%, 64.999%, 70%, 100% {
 		/*opacity: .99;*/
-		padding-left: 20%;
+		padding: 0 0 10px 20%;
 		color: white;
 		text-shadow: 0px 0px 7px white;
 
 	}
-	15%, 15.999%, 63%, 63.999%, 65%, 69.999% {
+	16%, 16.999%, 63%, 63.999%, 65%, 69.999% {
 		/*opacity: 0.2;*/
-		padding-left: 19%;
+		padding: 10px 0 0 20%;
 		color: #00ff82;
 		text-shadow: none;
 	}
 }
 @-webkit-keyframes flicker_a {
-	0%, 14.999%, 16%, 62.999%, 64%, 64.999%, 70%, 100% {
+	0%, 14.999%, 16%, 52.999%, 54%, 54.999%, 60%, 79.999%, 81%, 100% {
 		/*opacity: .99;*/
 		padding-left: 50%;
 		color: white;
 		text-shadow: 0px 0px 7px white;
 
 	}
-	15%, 15.999%, 63%, 63.999%, 65%, 69.999% {
+	15%, 15.999%, 53%, 53.999%, 55%, 59.999%, 80% {
 		/*opacity: 0.2;*/
 		padding-left: 51%;
 		color: #ff0093;
