@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 }
 h1 {
 	margin: 0;
@@ -59,6 +59,11 @@ h1.title_4 {
 }
 .left {
 	padding-right: 4%;
+}
+.right {
+	font-family: Montserrat, Avenir, Helvetica, sans;
+	text-shadow: 0px 0px 10px white;
+
 }
 /*ANIMATION*/
 @-webkit-keyframes flicker {
